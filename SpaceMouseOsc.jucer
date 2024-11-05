@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bdS6v8" name="SpaceMouseOsc" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" headerPath="../../Source/SpaceMouse/">
+  <MAINGROUP id="gwtNuJ" name="SpaceMouseOsc">
+    <GROUP id="{32AAFE25-CBFC-05FB-D80E-EC9ADA773580}" name="Source">
+      <GROUP id="{98024972-DF0E-B671-B258-2E1852328FC4}" name="SpaceMouse">
+        <FILE id="RUWKVU" name="SM_Network.cpp" compile="1" resource="0" file="Source/SpaceMouse/SM_Network.cpp"/>
+        <FILE id="hK4fSb" name="SM_Network.h" compile="0" resource="0" file="Source/SpaceMouse/SM_Network.h"/>
+        <FILE id="pb7Vzo" name="SM_Param.cpp" compile="1" resource="0" file="Source/SpaceMouse/SM_Param.cpp"/>
+        <FILE id="sKcpx8" name="SM_Param.h" compile="0" resource="0" file="Source/SpaceMouse/SM_Param.h"/>
+        <FILE id="tYbPcI" name="SM_Types.h" compile="0" resource="0" file="Source/SpaceMouse/SM_Types.h"/>
+        <FILE id="yheH1b" name="SM_Values.cpp" compile="1" resource="0" file="Source/SpaceMouse/SM_Values.cpp"/>
+        <FILE id="xZZrjA" name="SM_Values.h" compile="0" resource="0" file="Source/SpaceMouse/SM_Values.h"/>
+        <FILE id="kIeK9h" name="SM_Visualize.cpp" compile="1" resource="0"
+              file="Source/SpaceMouse/SM_Visualize.cpp"/>
+        <FILE id="M3FBUA" name="SM_Visualize.h" compile="0" resource="0" file="Source/SpaceMouse/SM_Visualize.h"/>
+        <FILE id="tWfVWQ" name="SpaceMouse.cpp" compile="1" resource="0" file="Source/SpaceMouse/SpaceMouse.cpp"/>
+        <FILE id="sNb8Le" name="SpaceMouse.h" compile="0" resource="0" file="Source/SpaceMouse/SpaceMouse.h"/>
+      </GROUP>
+      <FILE id="kdBWIJ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Zz9m6A" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="flc8SS" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SpaceMouseOsc" headerPath="C:\Audio\Projects\SpaceMouseOsc\Source\SpaceMouse"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SpaceMouseOsc" headerPath="C:\Audio\Projects\SpaceMouseOsc\Source\SpaceMouse"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
