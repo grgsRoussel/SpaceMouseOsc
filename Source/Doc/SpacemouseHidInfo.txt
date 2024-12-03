@@ -1,0 +1,14 @@
+from Max MSP Test :
+
+iD of buttons and axis
+
+Left Click    48     0x30   --> 0 OR 128
+Right Click   49     0x31   --> 0 OR 128
+
+UD 8          8      0x8    --> uint  32
+LR 4          4      0x4    --> uint  32
+FB 0          0      0x0    --> uint  32
+
+Pitch 12      12     0xc    --> uint  32
+Yaw 20        20     0x14   --> uint  32
+Roll 16       16     0x10   --> uint  32
