@@ -1,6 +1,6 @@
 import SpaceMouseOSC
 
-SM = SpaceMouseOSC.SMOSC(mode=SpaceMouseOSC.SMMode.ABSOLUTE)
+SM = SpaceMouseOSC.SMOSC(scale = 1,mode=SpaceMouseOSC.SMMode.ABSOLUTE_INT_LIMITED)
 
 while True:
     SM.update()
