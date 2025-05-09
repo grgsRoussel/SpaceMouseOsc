@@ -76,6 +76,10 @@ class SMOSC:
 
     def sendOSC(self):
 
+# WARNING : OSC Messages can be skipped due to the frequency of the message sent -- Only Python Prototype pb or General OSC Problem ?
+
+        # self.client.send_message("/spacemouse/all", [self.data.x, self.data.y, self.data.z, self.data.rx, self.data.ry, self.data.rz, self.data.clicked])
+        
         self.client.send_message("/spacemouse/x", self.data.x)
         self.client.send_message("/spacemouse/y", self.data.y)
         self.client.send_message("/spacemouse/z", self.data.z)  
@@ -84,7 +88,7 @@ class SMOSC:
         self.client.send_message("/spacemouse/rz", self.data.rz)
         self.client.send_message("/spacemouse/clicked", self.data.clicked)
 
-        #self.client.send_message("/spacemouse/mode", self.params.mode)
+        # self.client.send_message("/spacemouse/mode", self.params.mode)
 
 
     def update(self):
